@@ -1,0 +1,296 @@
+/* Home Page */
+#title {
+  background-image: url("https://wallpaperaccess.com/full/1614776.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+/* .navbar{
+  position:fixed;
+} */
+.escutgracia {
+  padding-left: 15px;
+  width: 4%;
+  height: 4%;
+  transition: transform .3s;
+}
+
+.escutgraciafootter {
+  max-width: 100%;
+  height: auto;
+}
+
+.escutgracia:hover {
+  transform: scale(4.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media (max-width:800px) {
+  .escutgracia {
+    padding-left: 5px;
+    width: 10%;
+  }
+}
+
+
+.Hardware {
+  border-radius: 40%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Programming {
+  border-radius: 40%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:center;
+  line-height: 2;
+}
+.nom-club {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-right: solid;
+  border-width: thin;
+  border-color: #fff;
+  padding-right: 10px;
+}
+
+.segueix {
+  color: #fff;
+}
+
+.segonabarra {
+  color: #fff;
+}
+
+.Shield {
+  /* margin-left: 15px; */
+  margin-top: 50px;
+  margin-right: auto;
+  /* margin-bottom: auto; */
+  /* width: 130%; */
+  max-width: 120%;
+}
+
+@media (max-width:1190px) {
+  .Shield {
+    padding-top: 100px;
+    position: static;
+    margin: auto;
+    /* width: 130%; */
+    width: 250px;
+  }
+}
+
+.container-fluid {
+  /* padding: 3% 15%; */
+  /*background-image: "images/bigdata_back.png";*/
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.barri {
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.vestuari {
+  width: 90%;
+  border-radius: 100%;
+  margin: 10px;
+  transition: transform .2s;
+}
+
+.vestuari:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  color: white;
+  size: 25rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.downloadbtn {
+  margin: 8% 3% 5% 0;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  color: #fff;
+}
+
+/* Enllaços a altres pestanyes */
+.enllaç {
+  text-align: center;
+  margin: auto;
+}
+
+.Titols {
+  text-align: center;
+  margin: auto;
+}
+
+.boto:hover {
+  color: #FF8B00;
+}
+
+/* News */
+#testimonials {
+  background-color: #346F9A;
+  text-align: center;
+  color: #fff;
+}
+
+/* .carousel-item {
+  padding: 7% 15%;
+} */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.competicions-container {
+  text-align: center;
+  margin: 3% 15%;
+}
+
+.Colmna-esquerre {
+  text-align: center;
+}
+
+.Retall {
+  max-width: 100%;
+  height: auto;
+}
+
+.Retall2 {
+  /* width: 350px; */
+  max-width: 50%;
+  height: auto;
+}
+
+.Retall3 {
+  /* width: 200px; */
+  max-width: 50%;
+  height: auto;
+}
+
+.bottom-container {
+  background-color: #666;
+  line-height: 2;
+  text-align: center;
+}
+
+.marcfooter {
+  padding-top: 25px;
+}
+
+.otis {
+  color: #fff;
+}
+
+.xarxes {
+  color: #FF8C00;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.social {
+  padding-top: 8px;
+}
+
+.facebu:hover {
+  background-color: #FF8C00;
+}
+
+.rights {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+/*---------------------------- Final Home Page----------------------------- */
+/*---------------------------- Equips- 1r Equip ----------------------------- */
+img {
+  margin: auto;
+}
+
+#title-1rEquip {
+  background-color: #FF8C00;
+  text-align: center;
+  margin: auto;
+}
+
+#Fotogrup {
+  width: 70%;
+  padding: 50px;
+}
+
+.titol {
+  text-align: center;
+}
+
+.container-fluid-Jugadors {
+  padding: 3% 15%;
+}
+
+.Fila {
+  margin-top: : 15px;
+  margin-bottom: 15px;
+}
+
+.Posicions {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.FotosJugadors {
+  text-align: center;
+  margin: auto;
+}
+
+.Retall {
+  max-width: 100%;
+  height: auto;
+}
+
+.Retall:hover {
+  transform: scale(1.5);
+}
+
+.PersonalName {
+  font-weight: bold;
+}
