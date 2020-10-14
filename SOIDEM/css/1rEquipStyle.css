@@ -1,0 +1,102 @@
+img{
+  margin: auto;
+}
+
+.escutgracia{
+  padding-left: 15px;
+  width: 4%;
+  height: 4%;
+  transition: transform .3s;
+}
+.escutgracia:hover {
+  transform: scale(4.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.nom-club{
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-right: solid;
+  border-width: thin;
+  border-color: #fff;
+  padding-right: 10px;
+}
+.segueix{
+  color: #fff;
+}
+.segonabarra{
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  size: 25rem;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+
+#title-1rEquip{
+  background-color: #FF8C00;
+  text-align: center;
+  margin: auto;
+}
+
+#Fotogrup{
+  width: 70%;
+  padding: 50px;
+}
+
+.container-fluid-Jugadors{
+padding: 3% 15%;
+}
+
+.Fila{
+  margin-top: : 15px;
+  margin-bottom: 15px;
+}
+.Posicions{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.FotosJugadors{
+  text-align: center;
+  margin: auto;
+}
+.Retall{
+max-width: 100%;
+height: auto;
+}
+.Retall:hover{
+  transform: scale(1.5);
+}
+
+.PersonalName{
+  font-weight: bold;
+}
+
+.bottom-container{
+  background-color: #666;
+  line-height: 2;
+  text-align: center;
+}
+.marcfooter{
+  padding-top: 25px;
+}
+.otis{
+  color: #fff;
+}
+.xarxes{
+  color: #FF8C00;
+  font-weight: bold;
+  list-style-type: none;
+}
+.social{
+  padding-top: 8px;
+}
+.facebu:hover{
+  background-color: #FF8C00;
+}
+.rights{
+  padding-bottom: 10px;
+  margin:0;
+}
